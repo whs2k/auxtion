@@ -30,5 +30,5 @@ filtered_df= pd.DataFrame(data=d)
 table_html = filtered_df.to_html(index=False,render_links=True, justify="center", 
     escape=False, border=4)
 print(today, flush=True)
-with open('ppra.html', 'w') as f:
+with open('index.html', 'w') as f:
     f.write(html_string %(table_html))

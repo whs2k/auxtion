@@ -38,6 +38,7 @@ def pull_and_save_ebay_data(api_key, save_fn):
     df['sold_price'] = sold_prices
     df['web_url'] = web_urls
     df.to_csv(save_fn, index=False)
+    print('saved df: ', df.head(), flush=True)
 
 def create_and_save_html_page(df_html, header_fn='navbar.html', footer_fn='footer.html'):
     body_html_string = """
@@ -59,14 +60,7 @@ def create_and_save_html_page(df_html, header_fn='navbar.html', footer_fn='foote
     final = final.format(most_recent_filing_date=today)
     with open('index.html', 'w') as file:
         file.write(final)
-
-
-
-
-
-
-
-
+        
 url_template = "https://ppra.org.pk/dad_tenders.asp?PageNo="
 html_string = """
     <html>

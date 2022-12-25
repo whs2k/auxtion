@@ -1,34 +1,31 @@
-import requests as r
 import pandas as pd
+import requests
 from datetime import datetime
-
-url_template = "https://ppra.org.pk/dad_tenders.asp?PageNo="
-html_string = """
-    <html>
-    <head><title>Latest PPRA Tenders</title></head>
-    <body>
-        <style>
-        table {
-            border-collapse: collapse;
-            border: 1px solid silver;
-        }
-        table tr:nth-child(even) {
-            background: #E0E0E0;
-        }
-        </style>
-        %s
-    </body>
-    </html>
-"""
-today = datetime.now()
-d = {'col1': [today, 2], 'col2': [3, 4]}
-filtered_df= pd.DataFrame(data=d)
-# dfs = pd.read_html(html.text, attrs={'width': '656'}, header=0, parse_dates=['Advertised Date'])
+import sys
+import helper
+import traceback
 
 
 
-table_html = filtered_df.to_html(index=False,render_links=True, justify="center", 
+pd.set_option('display.max_colwidth', -1)
+
+#https://developer.ebay.com/my/auth/?env=sandbox&index=0
+dummy_key = sys.argv[1]
+
+df_fn = 'scrapped_data.csv'
+
+try:
+    helper.pull_and_save_ebay_data(api_key=dummy_key, save_fn=df_fn)
+except Exception as e: 
+    print(e)
+    traceback.print_exc()
+    print('using existing df')
+    pass
+
+df = pd.read_csv(df_fn)
+
+table_html = df.to_html(index=False,render_links=True, justify="center", 
     escape=False, border=4)
-print(today, flush=True)
-with open('index.html', 'w') as f:
-    f.write(html_string %(table_html))
+#body_html_string = body_html_string.format(html_table=table_html)#body %(table_html)
+
+helper.create_and_save_html_page(df_html=table_html, header_fn='navbar.html', footer_fn='footer.html')

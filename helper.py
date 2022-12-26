@@ -39,16 +39,35 @@ def pull_and_save_ebay_data(api_key, save_fn):
     df['web_url'] = web_urls
     df.to_csv(save_fn, index=False)
     print('saved df too : ',save_fn,  df.head(), flush=True)
+   # with open(save_fn, 'a') as f:
+   #     dfAsString = df.to_string(header=True, index=False)
+   #     f.write(dfAsString)
 
 def create_and_save_html_page(df_html, header_fn='navbar.html', footer_fn='footer.html'):
     body_html_string = """
-    <body>
-        <h1>Auxtion; what's actually hot
-        <h2>Welcome to auxtion.com where we scrape 
-        the largest luxury purchases to show you what's actually sold</h2>
-            <h3> Ebay </h3>
+    
+    <div class="row mx-auto">
+        <div class="col-md-8 mx-auto">
+            <h3 class="card-title text-center">Auxtion: What's Actually Selling</h3>
+
+            <p class="card-text text-center">Welcome to auxtion.com where we scrape 
+            the largest luxury purchases to show you what's actually hot right now.</p>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Ebay</h5>
             {html_table}
-    </body>
+        </div>
+    </div>    
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">StockX</h5>
+            <p>Coming Soon</p>
+        </div>
+    </div> 
+
     """
     with open(footer_fn, 'r') as file:
         footer = file.read().replace('\n', '')

@@ -25,7 +25,7 @@ except Exception as e:
 df = pd.read_csv(df_fn)
 
 table_html = df.to_html(index=False,render_links=True, justify="center", 
-    escape=False, border=4)
+    escape=False, border=4,  classes=['table', 'table-hover', 'table-condensed'])
 #body_html_string = body_html_string.format(html_table=table_html)#body %(table_html)
 
 helper.create_and_save_html_page(df_html=table_html, header_fn='navbar.html', footer_fn='footer.html')

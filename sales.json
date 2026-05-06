@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Jordan 1 Retro High Travis Scott",
+        "house": "StockX",
+        "price": 1850,
+        "currency": "USD",
+        "date": "2026-05-05",
+        "category": "Sneakers",
+        "url": "https://stockx.com/air-jordan-1-retro-high-travis-scott",
+        "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-Travis-Scott-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&updated_at=1606325939"
+    },
+    {
+        "name": "Nike Mag Back To The Future (2016)",
+        "house": "StockX",
+        "price": 65000,
+        "currency": "USD",
+        "date": "2026-05-05",
+        "category": "Sneakers",
+        "url": "https://stockx.com/nike-mag-back-to-the-future-2016",
+        "image": "https://images.stockx.com/images/Nike-Mag-Back-To-The-Future-2016-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&updated_at=1606325939"
+    },
+    {
+        "name": "Fine Chinese Modern and Contemporary Ink Paintings",
+        "house": "Christie's",
+        "price": 192327740.0,
+        "currency": "HKD",
+        "date": "2024-05-31",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/fine-chinese-modern-and-contemporary-ink-paintings-30359/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-22880-05312024-1.jpg?w=600"
+    },
+    {
+        "name": "Important Chinese Ceramics and Works of Art",
+        "house": "Christie's",
+        "price": 170187700.0,
+        "currency": "HKD",
+        "date": "2024-05-30",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/important-chinese-ceramics-and-works-of-art-29891/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-21658-05302024-1.jpg?w=600"
+    },
+    {
+        "name": "The Ten Perfections - Qing Imperial Ceramics from the Wang Xing Lou Collection",
+        "house": "Christie's",
+        "price": 122704000.0,
+        "currency": "HKD",
+        "date": "2024-05-30",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/the-ten-perfections-qing-imperial-ceramics-from-the-wang-xing-lou-collection-29525/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-20850-05302024-1.jpg?w=600"
+    },
+    {
+        "name": "20th Century Day Sale",
+        "house": "Christie's",
+        "price": 101078760.0,
+        "currency": "HKD",
+        "date": "2024-05-29",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/20th-century-day-sale-29880/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-21646-05292024-1.jpg?w=600"
+    },
+    {
+        "name": "21st Century Day Sale",
+        "house": "Christie's",
+        "price": 118798580.0,
+        "currency": "HKD",
+        "date": "2024-05-29",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/21st-century-day-sale-29881/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-21647-05292024-1.jpg?w=600"
+    },
+    {
+        "name": "20th Century Evening Sale",
+        "house": "Christie's",
+        "price": 404613000.0,
+        "currency": "HKD",
+        "date": "2024-05-28",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/20th-century-evening-sale-29879/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-21645-05282024-1.jpg?w=600"
+    },
+    {
+        "name": "21st Century Evening Sale",
+        "house": "Christie's",
+        "price": 338364200.0,
+        "currency": "HKD",
+        "date": "2024-05-28",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/21st-century-evening-sale-30719/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-23590-05282024-1.jpg?w=600"
+    },
+    {
+        "name": "Magnificent Jewels",
+        "house": "Christie's",
+        "price": 470318600.0,
+        "currency": "HKD",
+        "date": "2024-05-27",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/magnificent-jewels-30562/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-23180-05272024-1.jpg?w=600"
+    },
+    {
+        "name": "Important Watches Featuring The Generations & Timeless Opulence Collections",
+        "house": "Christie's",
+        "price": 206291340.0,
+        "currency": "HKD",
+        "date": "2024-05-26",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/important-watches-featuring-the-generations-timeless-opulence-collections-30445/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-23046-05262024-1.jpg?w=600"
+    },
+    {
+        "name": "Handbags & Accessories",
+        "house": "Christie's",
+        "price": 46119780.0,
+        "currency": "HKD",
+        "date": "2024-05-25",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/handbags-accessories-30327/",
+        "image": "https://www.christies.com/img/SaleImages/HGK-22767-05252024-1.jpg?w=600"
+    },
+    {
+        "name": "Design",
+        "house": "Christie's",
+        "price": 10741230.0,
+        "currency": "EUR",
+        "date": "2024-05-23",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/design-30411/",
+        "image": "https://www.christies.com/img/SaleImages/PAR-23004-05232024-1.jpg?w=600"
+    },
+    {
+        "name": "Old Master and European Paintings from a Private Collection - Selling Without Reserve",
+        "house": "Christie's",
+        "price": 1719270.0,
+        "currency": "USD",
+        "date": "2024-05-23",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/old-master-and-european-paintings-from-a-private-collection-selling-without-reserve-30444/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-23045-05232024-1.jpg?w=600"
+    },
+    {
+        "name": "Old Masters",
+        "house": "Christie's",
+        "price": 4360104.0,
+        "currency": "USD",
+        "date": "2024-05-23",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/old-masters-30370/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-22900-05232024-1.jpg?w=600"
+    },
+    {
+        "name": "Three Dealing Dynasties: London, Paris, Geneva",
+        "house": "Christie's",
+        "price": 2824668.0,
+        "currency": "GBP",
+        "date": "2024-05-23",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/three-dealing-dynasties-london-paris-geneva-30394/",
+        "image": "https://www.christies.com/img/SaleImages/CKS-22984-05232024-1.jpg?w=600"
+    },
+    {
+        "name": "Impressionist and Modern Art Day Sale",
+        "house": "Christie's",
+        "price": 25293560.0,
+        "currency": "USD",
+        "date": "2024-05-18",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/impressionist-and-modern-art-day-sale-30233/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-22613-05182024-1.jpg?w=600"
+    },
+    {
+        "name": "Impressionist and Modern Works on Paper Sale",
+        "house": "Christie's",
+        "price": 11855500.0,
+        "currency": "USD",
+        "date": "2024-05-18",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/impressionist-and-modern-works-on-paper-sale-30232/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-22612-05182024-1.jpg?w=600"
+    },
+    {
+        "name": "Post-War and Contemporary Art Day Sale ",
+        "house": "Christie's",
+        "price": 75123450.0,
+        "currency": "USD",
+        "date": "2024-05-17",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/post-war-and-contemporary-art-day-sale-30388/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-22978-05172024-1.jpg?w=600"
+    },
+    {
+        "name": "20th Century Evening Sale ",
+        "house": "Christie's",
+        "price": 413324500.0,
+        "currency": "USD",
+        "date": "2024-05-16",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/20th-century-evening-sale-30555/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-23172-05162024-1.jpg?w=600"
+    },
+    {
+        "name": "Magnificent Jewels ",
+        "house": "Christie's",
+        "price": 49242200.0,
+        "currency": "CHF",
+        "date": "2024-05-15",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/magnificent-jewels-30440/",
+        "image": "https://www.christies.com/img/SaleImages/GNV-23039-05152024-1.jpg?w=600"
+    },
+    {
+        "name": "21st Century Evening Sale ",
+        "house": "Christie's",
+        "price": 80258980.0,
+        "currency": "USD",
+        "date": "2024-05-14",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/21st-century-evening-sale-30554/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-23171-05142024-1.jpg?w=600"
+    },
+    {
+        "name": "Rare Watches Including the Property of Michael Schumacher",
+        "house": "Christie's",
+        "price": 22821050.0,
+        "currency": "CHF",
+        "date": "2024-05-14",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/rare-watches-including-the-property-of-michael-schumacher-30438/",
+        "image": "https://www.christies.com/img/SaleImages/GNV-23037-05132024-1.jpg?w=600"
+    },
+    {
+        "name": "The Rosa de la Cruz Collection Evening Sale",
+        "house": "Christie's",
+        "price": 34363300.0,
+        "currency": "USD",
+        "date": "2024-05-14",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/the-rosa-de-la-cruz-collection-evening-sale-30709/",
+        "image": "https://www.christies.com/img/SaleImages/NYR-23579-05142024-1.jpg?w=600"
+    },
+    {
+        "name": "Only Watch",
+        "house": "Christie's",
+        "price": 28320000.0,
+        "currency": "CHF",
+        "date": "2024-05-10",
+        "category": "Auction Result",
+        "url": "https://www.christies.com/en/auction/only-watch-30728/",
+        "image": "https://www.christies.com/img/SaleImages/GNV-23605-05102024-1.jpg?w=600"
+    },
+    {
+        "name": "Modern and Contemporary Art Dubai",
+        "house": "Christie's",
+        "price": 2172492.0,
+        "currency": "USD",
+        "date": "2024-05-09",
+        "category": "Auction Result",
+        "url": "https://onlineonly.christies.com/sso?SaleID=30341&SaleNumber=22832",
+        "image": "https://www.christies.com/img/SaleImages/DUB-22832-05092024-1.jpg?w=600"
+    },
+    {
+        "name": "Jewels Online: The Geneva Edit ",
+        "house": "Christie's",
+        "price": 6607314.0,
+        "currency": "CHF",
+        "date": "2024-05-08",
+        "category": "Auction Result",
+        "url": "https://onlineonly.christies.com/sso?SaleID=30442&SaleNumber=23041",
+        "image": "https://www.christies.com/img/SaleImages/GNV-23041-05082024-1.jpg?w=600"
+    },
+    {
+        "name": "Watches Online: The Geneva Edit",
+        "house": "Christie's",
+        "price": 3232026.0,
+        "currency": "CHF",
+        "date": "2024-05-07",
+        "category": "Auction Result",
+        "url": "https://onlineonly.christies.com/sso?SaleID=30441&SaleNumber=23040",
+        "image": "https://www.christies.com/img/SaleImages/GNV-23040-05072024-1.jpg?w=600"
+    }
+]

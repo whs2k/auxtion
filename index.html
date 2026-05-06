@@ -46,11 +46,35 @@
             <option value="price-desc">Highest Price</option>
             <option value="price-asc">Lowest Price</option>
         </select>
+        <button id="download-csv" class="action-btn">
+            Download CSV
+        </button>
     </div>
 
-    <main class="sales-grid" id="sales-container">
-        <!-- Sales will be injected here -->
-        <div class="loading">Discovering latest sales...</div>
+    <div class="view-switcher">
+        <button id="grid-view-btn" class="view-btn active">Grid View</button>
+        <button id="table-view-btn" class="view-btn">Table View</button>
+    </div>
+
+    <main id="main-content">
+        <div class="sales-grid" id="sales-container">
+            <div class="loading">Discovering latest sales...</div>
+        </div>
+        <div class="sales-table-container" id="table-container" style="display: none;">
+            <table class="sales-table">
+                <thead>
+                    <tr>
+                        <th data-sort="name">Item Name</th>
+                        <th data-sort="house">House</th>
+                        <th data-sort="price">Price</th>
+                        <th data-sort="date">Date</th>
+                        <th data-sort="category">Category</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>

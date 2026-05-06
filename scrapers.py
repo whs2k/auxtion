@@ -220,4 +220,14 @@ if __name__ == "__main__":
     
     with open('sales.json', 'w') as f:
         json.dump(all_sales, f, indent=4)
+    
+    # Also save as CSV for research
+    import csv
+    if all_sales:
+        keys = all_sales[0].keys()
+        with open('sales.csv', 'w', newline='', encoding='utf-8') as f:
+            dict_writer = csv.DictWriter(f, fieldnames=keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(all_sales)
+            
     print(f"Total sales collected: {len(all_sales)}")

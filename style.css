@@ -141,6 +141,95 @@ header {
     color: #fff;
     outline: none;
     cursor: pointer;
+    transition: var(--transition);
+}
+
+.action-btn {
+    padding: 1rem 1.5rem;
+    background: var(--accent-color);
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(197, 160, 89, 0.4);
+}
+
+/* View Switcher */
+.view-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto 2rem;
+    max-width: 1200px;
+}
+
+.view-btn {
+    padding: 0.8rem 1.5rem;
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    border-radius: 50px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.view-btn.active {
+    background: var(--card-bg);
+    color: #fff;
+    border-color: var(--accent-color);
+}
+
+/* Sales Table */
+.sales-table-container {
+    padding: 0 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+}
+
+.sales-table th {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--accent-color);
+    text-align: left;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sales-table td {
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--glass-border);
+    color: #fff;
+}
+
+.sales-table tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.sales-table td a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sales-table td a:hover {
+    color: var(--accent-color);
 }
 
 /* Sales Grid */
